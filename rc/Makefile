@@ -29,9 +29,9 @@ install: ${TARG}
 	@mkdir -p ${DESTDIR}${PREFIX}/bin
 	@cp -f ${TARG} ${DESTDIR}${PREFIX}/bin/
 	@chmod 755 ${DESTDIR}${PREFIX}/bin/${TARG}
-	@mkdir -p ${DESTDIR}${MANPREFIX}/man1
-	@cp -f ${MANFILES} ${DESTDIR}${MANPREFIX}/man1
-	@chmod 444 ${DESTDIR}${MANPREFIX}/man1/${MANFILES}
+	
+	
+	
 	@mkdir -p ${DESTDIR}${PREFIX}/etc
 	@cp -f rcmain ${DESTDIR}${PREFIX}/etc
 	@chmod 755 ${DESTDIR}${PREFIX}/etc/rcmain
